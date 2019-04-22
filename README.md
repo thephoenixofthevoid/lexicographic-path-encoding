@@ -11,7 +11,7 @@ lexicographic ordering is provided through the charwise (https://github.com/domi
 
 # Valid paths
 
-A string is considered a path if it satisfy the following RE:
+A string is considered a path if it satisfies the following RE:
 ```ts
 const RE_PATH = /^(\/[a-zA-Z0-9.#_:-]+)+$/
 ```
